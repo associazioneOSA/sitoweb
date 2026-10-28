@@ -1,0 +1,278 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red36\green36\blue36;\red239\green236\blue236;}
+{\*\expandedcolortbl;;\cssrgb\c18824\c18824\c18824;\cssrgb\c94902\c94118\c94118;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <!DOCTYPE html>\
+<html lang="it">\
+<head>\
+    <meta charset="UTF-8">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <title>Officina del Suono e delle Arti APS | Associazione OSA</title>\
+    <meta name="description" content="Sito ufficiale dell'Officina del Suono e delle Arti APS (Associazione OSA). Scuola di Musica a Sesto Calende e progetti musicali nelle scuole di Varese e Novara.">\
+    <style>\
+        :root \{\
+            --primary-magenta: #E11D5A;\
+            --primary-hover: #C2185B;\
+            --secondary-blue: #4A90E2;\
+            --dark-navy: #0F172A;\
+            --text-muted: #475569;\
+            --bg-light: #F8FAFC;\
+            --white: #FFFFFF;\
+            --border-color: #E2E8F0;\
+            --font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\
+        \}\
+\
+        * \{ box-sizing: border-box; margin: 0; padding: 0; \}\
+        body \{ font-family: var(--font-family); color: var(--dark-navy); background-color: var(--bg-light); line-height: 1.6; \}\
+        \
+        /* Header Navigation */\
+        header \{ background-color: var(--white); border-bottom: 1px solid var(--border-color); position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 4px rgba(0,0,0,0.03); \}\
+        .header-container \{ max-width: 1200px; margin: 0 auto; padding: 1rem 1.5rem; display: flex; justify-content: space-between; align-items: center; \}\
+        .logo-area \{ display: flex; align-items: center; gap: 1rem; text-decoration: none; color: var(--dark-navy); \}\
+        .logo-badge \{ width: 50px; height: 50px; background-color: var(--primary-magenta); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--white); font-weight: 800; font-size: 1.2rem; position: relative; \}\
+        .logo-badge::after \{ content: "\uc0\u9834 "; position: absolute; top: -6px; right: 2px; color: var(--secondary-blue); font-size: 1.1rem; \}\
+        .brand-text h1 \{ font-size: 1.15rem; font-weight: 800; line-height: 1.2; color: var(--dark-navy); \}\
+        .brand-text span \{ font-size: 0.85rem; color: var(--text-muted); font-weight: 600; \}\
+        nav a \{ color: var(--dark-navy); text-decoration: none; font-weight: 600; font-size: 0.95rem; margin-left: 1.5rem; transition: color 0.2s; \}\
+        nav a:hover \{ color: var(--primary-magenta); \}\
+        .btn-primary \{ background-color: var(--primary-magenta); color: var(--white); padding: 0.75rem 1.5rem; border-radius: 50px; text-decoration: none; font-weight: 700; display: inline-block; transition: background-color 0.2s, transform 0.1s; \}\
+        .btn-primary:hover \{ background-color: var(--primary-hover); transform: translateY(-1px); \}\
+\
+        /* Hero Section */\
+        .hero \{ background: linear-gradient(135deg, #FFF0F5 0%, #EBF4FF 100%); padding: 4.5rem 1.5rem; text-align: center; border-bottom: 1px solid var(--border-color); \}\
+        .hero-container \{ max-width: 850px; margin: 0 auto; \}\
+        .tag-badge \{ background-color: var(--secondary-blue); color: var(--white); font-size: 0.85rem; font-weight: 700; padding: 0.4rem 1.1rem; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px; display: inline-block; margin-bottom: 1.2rem; \}\
+        .hero h2 \{ font-size: 2.5rem; font-weight: 800; margin-bottom: 1.2rem; color: var(--dark-navy); line-height: 1.25; \}\
+        .hero p \{ font-size: 1.15rem; color: var(--text-muted); margin-bottom: 2rem; \}\
+\
+        /* Section Layouts */\
+        .section \{ padding: 4rem 1.5rem; \}\
+        .container \{ max-width: 1200px; margin: 0 auto; \}\
+        .section-header \{ text-align: center; margin-bottom: 3rem; \}\
+        .section-header h3 \{ font-size: 2rem; font-weight: 800; color: var(--dark-navy); margin-bottom: 0.5rem; \}\
+        .section-header p \{ color: var(--text-muted); font-size: 1.05rem; \}\
+\
+        /* Grid Corsi */\
+        .grid-3 \{ display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.75rem; \}\
+        .card \{ background-color: var(--white); border-radius: 14px; padding: 2rem; border: 1px solid var(--border-color); box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.04); transition: transform 0.2s, box-shadow 0.2s; \}\
+        .card:hover \{ transform: translateY(-3px); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08); \}\
+        .card-icon \{ width: 48px; height: 48px; border-radius: 12px; background-color: #FFE4E6; color: var(--primary-magenta); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 800; margin-bottom: 1.25rem; \}\
+        .card-title \{ font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem; \}\
+        .card-text \{ color: var(--text-muted); font-size: 0.95rem; \}\
+        .format-badge \{ display: inline-block; background-color: #F1F5F9; color: var(--dark-navy); font-size: 0.75rem; font-weight: 600; padding: 0.25rem 0.6rem; border-radius: 6px; margin-top: 1rem; margin-right: 0.3rem; \}\
+\
+        /* Banner Scuole */\
+        .school-banner \{ background-color: var(--white); border-radius: 20px; border: 2px solid var(--secondary-blue); padding: 3rem 2.5rem; display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: center; box-shadow: 0 8px 20px rgba(74, 144, 226, 0.08); \}\
+        .school-banner-text h4 \{ font-size: 1.75rem; font-weight: 800; margin-bottom: 1rem; color: var(--dark-navy); \}\
+        .school-banner-text p \{ color: var(--text-muted); margin-bottom: 1.25rem; font-size: 1rem; \}\
+        .school-list \{ list-style: none; \}\
+        .school-list li \{ position: relative; padding-left: 1.75rem; margin-bottom: 0.75rem; color: var(--dark-navy); font-weight: 600; font-size: 1rem; \}\
+        .school-list li::before \{ content: "\uc0\u10003 "; position: absolute; left: 0; color: var(--secondary-blue); font-weight: 800; font-size: 1.1rem; \}\
+\
+        /* Sedi e Contatti */\
+        .info-box \{ background-color: var(--dark-navy); color: var(--white); border-radius: 20px; padding: 3.5rem 2.5rem; text-align: center; \}\
+        .info-box h3 \{ font-size: 2rem; font-weight: 800; margin-bottom: 1rem; \}\
+        .info-grid \{ display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem; margin-top: 2.5rem; text-align: left; \}\
+        .info-item \{ background: rgba(255, 255, 255, 0.05); padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.1); \}\
+        .info-item h5 \{ color: var(--secondary-blue); font-size: 1.15rem; margin-bottom: 0.75rem; font-weight: 700; \}\
+        .info-item p \{ color: #CBD5E1; font-size: 0.95rem; line-height: 1.6; \}\
+        .info-item a \{ color: var(--white); text-decoration: underline; font-weight: 600; \}\
+        .info-item a:hover \{ color: var(--secondary-blue); \}\
+\
+        /* Footer Istituzionale */\
+        footer \{ background-color: #090D16; color: #94A3B8; padding: 3.5rem 1.5rem 2rem; font-size: 0.88rem; border-top: 1px solid #1E293B; \}\
+        .footer-container \{ max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr; gap: 3rem; \}\
+        .footer-legal h5 \{ color: var(--white); font-size: 1.1rem; margin-bottom: 0.75rem; font-weight: 700; \}\
+        .footer-legal p \{ margin-bottom: 0.6rem; line-height: 1.6; \}\
+        .footer-links h6 \{ color: var(--white); font-size: 1rem; margin-bottom: 1rem; font-weight: 700; \}\
+        .footer-links ul \{ list-style: none; \}\
+        .footer-links li \{ margin-bottom: 0.5rem; \}\
+        .footer-links a \{ color: #94A3B8; text-decoration: none; transition: color 0.2s; \}\
+        .footer-links a:hover \{ color: var(--white); \}\
+        .footer-bottom \{ max-width: 1200px; margin: 2.5rem auto 0; padding-top: 1.5rem; border-top: 1px solid #1E293B; text-align: center; color: #64748B; font-size: 0.82rem; \}\
+\
+        @media (max-width: 768px) \{\
+            .hero h2 \{ font-size: 1.9rem; \}\
+            .school-banner \{ grid-template-columns: 1fr; padding: 2rem 1.5rem; \}\
+            .footer-container \{ grid-template-columns: 1fr; \}\
+            nav \{ display: none; \}\
+        \}\
+    </style>\
+</head>\
+<body>\
+\
+    <!-- Header Navigation -->\
+    <header>\
+        <div class="header-container">\
+            <a href="#" class="logo-area">\
+                <div class="logo-badge">OSA</div>\
+                <div class="brand-text">\
+                    <h1>Officina del Suono e delle Arti APS</h1>\
+                    <span>Associazione OSA | associazioneosa.org</span>\
+                </div>\
+            </a>\
+            <nav>\
+                <a href="#corsi">Scuola di Musica</a>\
+                <a href="#scuole">Progetti Scolastici</a>\
+                <a href="#sedi">Sedi & Contatti</a>\
+            </nav>\
+            <a href="mailto:informazioni.osa@gmail.com" class="btn-primary">Unisciti a Noi</a>\
+        </div>\
+    </header>\
+\
+    <!-- Hero Section -->\
+    <section class="hero">\
+        <div class="hero-container">\
+            <span class="tag-badge">Associazione di Promozione Sociale</span>\
+            <h2>Musica, Cultura e Formazione Artistica nel Territorio</h2>\
+            <p>Siamo l'<strong>Officina del Suono e delle Arti APS</strong> (conosciuta come <em>Associazione OSA</em>). Promuoviamo la passione per la musica con la nostra Scuola di Musica a Sesto Calende e laboratori nelle scuole delle province di Varese e Novara.</p>\
+            <a href="#corsi" class="btn-primary">Esplora i Nostri Corsi</a>\
+        </div>\
+    </section>\
+\
+    <!-- Corsi di Musica -->\
+    <section id="corsi" class="section">\
+        <div class="container">\
+            <div class="section-header">\
+                <h3>La Nostra Scuola di Musica</h3>\
+                <p>Percorsi formativi personalizzati per bambini, ragazzi e adulti di ogni livello</p>\
+            </div>\
+            <div class="grid-3">\
+                <div class="card">\
+                    <div class="card-icon">\uc0\u55356 \u57273 </div>\
+                    <h4 class="card-title">Pianoforte e Tastiere</h4>\
+                    <p class="card-text">Studio della tecnica pianistica, lettura musicale, repertorio classico e moderno per sviluppare espressivit\'e0 e sensibilit\'e0 sonora.</p>\
+                    <span class="format-badge">Lezioni Individuali</span>\
+                    <span class="format-badge">Tutti i Livelli</span>\
+                </div>\
+                <div class="card">\
+                    <div class="card-icon">\uc0\u55356 \u57272 </div>\
+                    <h4 class="card-title">Chitarra & Basso</h4>\
+                    <p class="card-text">Dalla chitarra classica ed acustica a quella elettrica e al basso: impostazione, ritmica, accordi e improvvisazione.</p>\
+                    <span class="format-badge">Classica / Elettrica</span>\
+                    <span class="format-badge">Accordi & Riff</span>\
+                </div>\
+                <div class="card">\
+                    <div class="card-icon">\uc0\u55356 \u57252 </div>\
+                    <h4 class="card-title">Canto & Tecnica Vocale</h4>\
+                    <p class="card-text">Uso consapevole della voce, respirazione diaframmatica, intonazione, controllo vocale ed interpretazione nei vari generi.</p>\
+                    <span class="format-badge">Canto Moderno</span>\
+                    <span class="format-badge">Presenza Scenica</span>\
+                </div>\
+                <div class="card">\
+                    <div class="card-icon">\uc0\u55358 \u56641 </div>\
+                    <h4 class="card-title">Batteria & Percussioni</h4>\
+                    <p class="card-text">Sviluppo del senso ritmico, coordinazione, indipendenza degli arti e coordinazione per suonare in ensemble.</p>\
+                    <span class="format-badge">Studio del Ritmo</span>\
+                    <span class="format-badge">Coordinazione</span>\
+                </div>\
+                <div class="card">\
+                    <div class="card-icon">\uc0\u55356 \u57276 </div>\
+                    <h4 class="card-title">Propedeutica Musicale (3-6 anni)</h4>\
+                    <p class="card-text">Laboratori ludico-musicali per i pi\'f9 piccoli per avvicinarsi ai suoni, al ritmo e all'ascolto attraverso il gioco ed il movimento.</p>\
+                    <span class="format-badge">Bambini 3-6 Anni</span>\
+                    <span class="format-badge">Gruppo Ludico</span>\
+                </div>\
+                <div class="card">\
+                    <div class="card-icon">\uc0\u55356 \u57271 </div>\
+                    <h4 class="card-title">Musica d'Insieme & Teoria</h4>\
+                    <p class="card-text">Corsi complementari di teoria, solfeggio e laboratori di musica d'insieme per imparare a suonare in una vera band.</p>\
+                    <span class="format-badge">Laboratori Band</span>\
+                    <span class="format-badge">Teoria & Solfeggio</span>\
+                </div>\
+            </div>\
+        </div>\
+    </section>\
+\
+    <!-- Progetti Nelle Scuole -->\
+    <section id="scuole" class="section" style="background-color: var(--white); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">\
+        <div class="container">\
+            <div class="school-banner">\
+                <div class="school-banner-text">\
+                    <h4>Progetti Musicali nelle Scuole</h4>\
+                    <p>L'Officina del Suono e delle Arti APS collabora con gli Istituti Comprensivi e le scuole del territorio proponendo percorsi didattici accreditati.</p>\
+                    <ul class="school-list">\
+                        <li>Corsi curricolari dedicati alle Scuole Primarie e Secondarie</li>\
+                        <li>Laboratori pomeridiani extracurricolari espressivi e ritmici</li>\
+                        <li>Progetti attivi nelle province di <strong>Varese</strong> e <strong>Novara</strong></li>\
+                        <li>Insegnanti qualificati ed educatori musicali specializzati</li>\
+                    </ul>\
+                </div>\
+                <div style="text-align: center; background: #F8FAFC; padding: 2rem; border-radius: 12px; border: 1px dashed var(--secondary-blue);">\
+                    <p style="font-size: 3rem; margin-bottom: 0.5rem;">\uc0\u55356 \u57323 \u55356 \u57270 </p>\
+                    <h5 style="font-size: 1.2rem; font-weight: 700; color: var(--dark-navy); margin-bottom: 0.5rem;">Sei un Istituto Scolastico?</h5>\
+                    <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1rem;">Contattaci per strutturare un progetto formativo musicale su misura per i tuoi studenti.</p>\
+                    <a href="mailto:informazioni.osa@gmail.com" class="btn-primary" style="font-size: 0.9rem;">Richiedi Informazioni</a>\
+                </div>\
+            </div>\
+        </div>\
+    </section>\
+\
+    <!-- Sedi e Contatti -->\
+    <section id="sedi" class="section">\
+        <div class="container">\
+            <div class="info-box">\
+                <h3>Sedi dell'Associazione e Contatti</h3>\
+                <p>Vieni a trovarci o contatta la segreteria per informazioni sui corsi e sul tesseramento</p>\
+                <div class="info-grid">\
+                    <div class="info-item">\
+                        <h5>\uc0\u55357 \u56525  Sede Didattica e Operativa</h5>\
+                        <p><strong>Largo dei Ferrai 4</strong><br>21018 Sesto Calende (VA)<br><em>Aule insonorizzate e dotate di strumentazione didattica.</em></p>\
+                    </div>\
+                    <div class="info-item">\
+                        <h5>\uc0\u55356 \u57307 \u65039  Sede Legale</h5>\
+                        <p><strong>Officina del Suono e delle Arti APS</strong><br>Comune di Mercallo (VA)<br><em>Associazione iscritta al RUNTS.</em></p>\
+                    </div>\
+                    <div class="info-item">\
+                        <h5>\uc0\u9993 \u65039  Contatti Ufficiali</h5>\
+                        <p>Email: <a href="mailto:informazioni.osa@gmail.com"><strong>informazioni.osa@gmail.com</strong></a><br>\
+                        Telefono: <a href="tel:+393248414187"><strong>+39 324 841 4187</strong></a><br>\
+                        Sito Web: <strong>associazioneosa.org</strong></p>\
+                    </div>\
+                    <div class="info-item">\
+                        <h5>\uc0\u55357 \u56561  Canali Social Ufficiali</h5>\
+                        <p style="margin-bottom: 0.5rem;">Rimani aggiornato su eventi e corsi:</p>\
+                        <p><a href="https://facebook.com/associazioneosa" target="_blank" rel="noopener">\uc0\u55357 \u56393  Facebook: associazioneosa</a></p>\
+                        <p><a href="https://instagram.com/osa_officinadelsuonoedellearti/" target="_blank" rel="noopener">\uc0\u55357 \u56393  Instagram: @osa_officinadelsuonoedellearti</a></p>\
+                    </div>\
+                </div>\
+            </div>\
+        </div>\
+    </section>\
+\
+    <!-- Footer Istituzionale Trasparenza -->\
+    <footer>\
+        <div class="footer-container">\
+            <div class="footer-legal">\
+                <h5>Officina del Suono e delle Arti APS</h5>\
+                <p>Associazione di Promozione Sociale (APS) del Terzo Settore | Iscritta al RUNTS ai sensi del D.Lgs. 117/2017</p>\
+                <p><strong>Denominazione d'uso:</strong> Associazione OSA</p>\
+                <p><strong>Codice Fiscale:</strong> 92032130129 | <strong>Partita IVA:</strong> 03565370123</p>\
+                <p><strong>Sede Legale:</strong> Mercallo (VA) | <strong>Sede Operativa/Didattica:</strong> Largo dei Ferrai 4, 21018 Sesto Calende (VA)</p>\
+                <p style="margin-top: 1rem; font-size: 0.8rem; color: #64748B;">\
+                    Informativa Trasparenza: La frequenza dei corsi musicali ed il sostegno alle attivit\'e0 associative sono riservati ai soci in regola con il tesseramento. Quota associativa annuale: 15,00 \'80 (Valida per l'anno sociale dal 1\'b0 settembre al 31 agosto).\
+                </p>\
+            </div>\
+            <div class="footer-links">\
+                <h6>Contatti Rapidi</h6>\
+                <ul>\
+                    <li><a href="mailto:informazioni.osa@gmail.com">informazioni.osa@gmail.com</a></li>\
+                    <li><a href="tel:+393248414187">+39 324 841 4187</a></li>\
+                    <li><a href="https://facebook.com/associazioneosa" target="_blank" rel="noopener">Pagina Facebook</a></li>\
+                    <li><a href="https://instagram.com/osa_officinadelsuonoedellearti/" target="_blank" rel="noopener">Profilo Instagram</a></li>\
+                </ul>\
+            </div>\
+        </div>\
+        <div class="footer-bottom">\
+            <p>&copy; Officina del Suono e delle Arti APS - Tutti i diritti riservati. Dominio ufficiale di associazioneosa.org</p>\
+        </div>\
+    </footer>\
+\
+</body>\
+</html>\
+}
